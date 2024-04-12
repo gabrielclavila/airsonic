@@ -1,0 +1,88 @@
+* Starting client
+* Connecting to master process on port 3673
+* Analyzing classpath: 
+  - /home/iartes/Downloads/airsonic-master/airsonic-sonos-api/target/classes
+  - /home/iartes/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar
+  - /home/iartes/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar
+  - /home/iartes/.m2/repository/jakarta/xml/ws/jakarta.xml.ws-api/2.3.3/jakarta.xml.ws-api-2.3.3.jar
+  - /home/iartes/.m2/repository/jakarta/xml/soap/jakarta.xml.soap-api/1.4.2/jakarta.xml.soap-api-1.4.2.jar
+  - /home/iartes/.m2/repository/jakarta/jws/jakarta.jws-api/1.1.1/jakarta.jws-api-1.1.1.jar
+  - /home/iartes/.m2/repository/junit/junit/4.12/junit-4.12.jar
+  - /home/iartes/.m2/repository/org/hamcrest/hamcrest-core/2.1/hamcrest-core-2.1.jar
+  - /home/iartes/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar
+* Finished analyzing classpath
+* Generating tests for class com.sonos.services._1_1.Sonos
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Setting up search algorithm for whole suite generation
+[MASTER] 10:30:53.786 [pool-2-thread-1] WARN  TestSuiteSerialization - Cannot load tests because file does not exist: /home/iartes/Downloads/airsonic-master/airsonic-sonos-api/.evosuite/evosuite-seeds/com.sonos.services._1_1.Sonos.seed
+* Loaded 0 tests from /home/iartes/Downloads/airsonic-master/airsonic-sonos-api/.evosuite/evosuite-seeds/com.sonos.services._1_1.Sonos.seed
+* Total number of test goals: 
+  - Line 14
+  - Branch 8
+  - Exception 0
+  - MutationFactory 2
+  - Output 4
+  - Method 8
+  - MethodNoException 8
+  - CBranchFitnessFactory 8
+* Using seed 1712586652591
+* Starting evolution
+[MASTER] 10:30:54.856 [TEST_EXECUTION_THREAD_0] WARN  MSecurityManager - SUT asked for a runtime permission that EvoSuite does not recognize: ftpClientProvider
+* Search finished after 31s and 60 generations, 25403 statements, best individual has fitness: 4.729166666666666
+* Writing sequences to pool
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 86%
+* Total number of goals: 14
+* Number of covered goals: 12
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 100%
+* Total number of goals: 8
+* Number of covered goals: 8
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 15
+* Number of covered goals: 15
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 100%
+* Total number of goals: 2
+* Number of covered goals: 2
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 50%
+* Total number of goals: 4
+* Number of covered goals: 2
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 100%
+* Total number of goals: 8
+* Number of covered goals: 8
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 88%
+* Total number of goals: 8
+* Number of covered goals: 7
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 88%
+* Total number of goals: 8
+* Number of covered goals: 7
+* Generated 20 tests with total length 64
+* Resulting test suite's coverage: 89% (average coverage for all fitness functions)
+* Generating assertions
+* Resulting test suite's mutation score: 100%
+* Compiling and checking tests
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         ftpClientProvider: 143
+  - java.net.SocketPermission: 
+         resolve www.someFakeButWellFormedURL.org: 132
+         resolve foo.bar: 2
+* Writing JUnit test case 'Sonos_ESTest' to /home/iartes/Downloads/airsonic-master/airsonic-sonos-api/.evosuite/tmp_2024_04_08_09_29_18/tests
+* Done!
+

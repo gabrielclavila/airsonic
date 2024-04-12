@@ -1,0 +1,4 @@
+TARGET_CLASS,criterion,Coverage,Total_Goals,Covered_Goals
+com.sonos.services._1.AddToContainer,BRANCH,1.0,9,9
+com.sonos.services._1.AddToContainer,LINE;BRANCH;EXCEPTION;WEAKMUTATION;OUTPUT;METHOD;METHODNOEXCEPTION;CBRANCH,1.0,83,83
+com.sonos.services._1.AddToContainer,LINE,1.0,13,13

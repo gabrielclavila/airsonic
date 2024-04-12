@@ -1,0 +1,76 @@
+* Starting client
+* Connecting to master process on port 21290
+* Analyzing classpath: 
+  - /home/iartes/Downloads/airsonic-master/subsonic-rest-api/target/classes
+  - /home/iartes/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar
+  - /home/iartes/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar
+  - /home/iartes/.m2/repository/junit/junit/4.12/junit-4.12.jar
+  - /home/iartes/.m2/repository/org/hamcrest/hamcrest-core/2.1/hamcrest-core-2.1.jar
+  - /home/iartes/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar
+* Finished analyzing classpath
+* Generating tests for class org.subsonic.restapi.InternetRadioStation
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Setting up search algorithm for whole suite generation
+[MASTER] 11:52:52.705 [pool-2-thread-1] WARN  TestSuiteSerialization - Cannot load tests because file does not exist: /home/iartes/Downloads/airsonic-master/subsonic-rest-api/.evosuite/evosuite-seeds/org.subsonic.restapi.InternetRadioStation.seed
+* Loaded 0 tests from /home/iartes/Downloads/airsonic-master/subsonic-rest-api/.evosuite/evosuite-seeds/org.subsonic.restapi.InternetRadioStation.seed
+* Total number of test goals: 
+  - Line 13
+  - Branch 9
+  - Exception 0
+  - MutationFactory 28
+  - Output 12
+  - Method 9
+  - MethodNoException 9
+  - CBranchFitnessFactory 9
+* Using seed 1712591571750
+* Starting evolution
+* Search finished after 1s and 0 generations, 5372 statements, best individual has fitness: 1.0
+* Writing sequences to pool
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 100%
+* Total number of goals: 13
+* Number of covered goals: 13
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 100%
+* Total number of goals: 9
+* Number of covered goals: 9
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100% (no goals)
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 100%
+* Total number of goals: 28
+* Number of covered goals: 28
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 100%
+* Total number of goals: 12
+* Number of covered goals: 12
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 100%
+* Total number of goals: 9
+* Number of covered goals: 9
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 100%
+* Total number of goals: 9
+* Number of covered goals: 9
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 100%
+* Total number of goals: 9
+* Number of covered goals: 9
+* Generated 12 tests with total length 32
+* Resulting test suite's coverage: 100% (average coverage for all fitness functions)
+* Generating assertions
+* Resulting test suite's mutation score: 100%
+* Compiling and checking tests
+* Writing JUnit test case 'InternetRadioStation_ESTest' to /home/iartes/Downloads/airsonic-master/subsonic-rest-api/.evosuite/tmp_2024_04_08_10_48_15/tests
+* Done!
+
